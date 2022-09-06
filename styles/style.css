@@ -12,19 +12,19 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#585c66;
+  color:#1e273d;
 }
 
 article {
-  width:50vw;
+  width:80vw;
   max-width: 25em;
   min-width:20em;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(150, 21, 21);
+  background: linear-gradient(0deg, rgb(149, 42, 42) 40%, #008e5567 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
@@ -42,32 +42,19 @@ header {
 
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgba(33, 33, 33, 0.736);
 }
 
-button {
-  border:none;
-  position: absolute;
-  right:1rem;
-  top:1rem;
-  width:2.5rem;
-  height:2.5rem;
-  transform: scale(.8);
-  background: rgba(0,239,255,1);
-  border-radius:50%;
-  padding:.25rem;
-  transition:.25s;
+em {
+  color: rgba(62, 63, 62, 0.736);
+  margin: 2rem 10 10rem;
+  font-size: 13px;
+  
 }
-button:focus {
-  outline:none;
-  background:#202592;
-}
-button:focus svg {
-  stroke: rgba(0,239,255,1);
-}
+
 
 svg {
-  stroke: #4e54c8;
+  stroke: #28e157;
   position: absolute;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
@@ -81,8 +68,8 @@ button svg:nth-of-type(2) {
 img {
   width:10em;
   border-radius:1em;
-  border:5px solid #fff;
-  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
+  border: 3px solid #fff;
+  box-shadow:0 0 2px 2px rgba(174, 9, 9, 0.2);
   position:relative;
   top:2rem;
   transition:.25s .15s;
@@ -132,7 +119,7 @@ p {
 article > p {
   padding:3rem 2rem;
   margin-top: 0;
-  background:rgba(255,255,255, 0.5);
+  background:rgba(255, 255, 255, 0.5);
   text-align:center;
   border-radius: 0 0 1rem 1rem;
   width:100%;
