@@ -119,47 +119,59 @@ h1
 }
 
 
-.section1 {
+.wiebenik {
   position:relative;
   background-color: #fffffff0;
   box-shadow: 0 0 50px rgba(0,0,0,.3);
   width: 45%;
-  height: 400px;
+  height: 450px;
   margin-left: 20px;
+  padding-left: 2em;  
+  padding-right: 7em;
   border-radius: 15px ;
   opacity: 0.9;
   z-index: 1;
   overflow: hidden;
-  bottom: 50px;
+  bottom: -120px;
   -webkit-clip-path: polygon(0 0, 85% 14%, 100% 100%, 0% 100%);
 clip-path: polygon(0 0, 85% 14%, 100% 100%, 0% 100%);
 
 }
 
 
-.section2 {
+.ambities {
   position:relative;
   background-color: #fffffff0;
   box-shadow: 0 0 50px rgba(0,0,0,.3);
   width: 45%;
-  height: 400px;
+  height: 450px;
   margin-left: 130px;
+  padding-right: 2em;
+  padding-left: 7em;
   border-radius: 15px ;
   opacity: 0.9;
   z-index: 1;
   overflow: hidden;
-  bottom: 450px;
+  bottom: 330px;
   left: 550px;
   -webkit-clip-path: polygon(15% 14%, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(15% 14%, 100% 0, 100% 100%, 0% 100%);
 }
 
-h2{
-  text-align: center;
+.header-wbi
+{
+
+  padding-left:1em;
 }
 
-#wiebenik
+.header-amb
 {
-  position: relative;
-  top: 30px;
+  padding-right: 1em;
+  text-align: right;
+}
+
+
+p{
+  font-size: 14px;
+  text-align:justify;
 }
