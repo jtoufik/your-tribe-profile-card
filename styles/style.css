@@ -12,7 +12,7 @@ html {
 }
 
 
-.container {
+.main {
   position: absolute;
   box-shadow: 0 0 50px rgba(0,0,0,.3);
   margin: 0 auto;
@@ -53,7 +53,7 @@ h1
   backface-visibility: hidden;
 }
 
-.header-image-container {
+.background-container {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -62,15 +62,16 @@ h1
   overflow: hidden;
 }
 
-.profile-image
+.profile-container {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
 
-{
-  position: relative;
+.profile-image{
+
   width: 135px;
   height: 175px ;
-  left: 50%;
-  top:10%;
-  transform: translate(-50%, -50%);
   border-radius: 15px;
   border-style:solid;
   border-color: white;
@@ -78,6 +79,7 @@ h1
   overflow: hidden;
   
 }
+
 @-webkit-keyframes zoomEffect {
   0% {
     -webkit-transform: scale(1) translateX(0);
