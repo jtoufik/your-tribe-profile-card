@@ -1,4 +1,4 @@
-# Mijn profile card
+# Profile card
 
 <img width="1680" alt="Schermafbeelding 2022-09-09 om 11 04 01" src="https://user-images.githubusercontent.com/112856590/189314258-2d562bac-75ed-4656-9afa-8422e81491b0.png">
 
